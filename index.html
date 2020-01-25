@@ -19,23 +19,28 @@
       <h3>
 <a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h3>
 
-<p>Ravi is a derivative/dialect of <a href="http://www.lua.org/">Lua 5.3</a> with limited optional static typing and an <a href="http://www.llvm.org/">LLVM</a> based JIT compiler. The name Ravi comes from the Sanskrit word for the Sun.</p>
+<p>Ravi is a derivative/dialect of <a href="http://www.lua.org/">Lua 5.3</a> with limited optional 
+  static typing and multiple JIT compilers. The name Ravi comes from the Sanskrit word for the Sun.</p>
 
-<p>Lua is perfect as a small embeddable dynamic language so why a derivative? Ravi extends Lua with static typing for greater performance under JIT compilation. However, the static typing is optional and therefore Lua programs are also valid Ravi programs.</p>
+<p>Lua is perfect as a small embeddable dynamic language so why a derivative? Ravi extends Lua with 
+  <a href="https://the-ravi-programming-language.readthedocs.io/en/latest/ravi-reference.html">static typing</a> for greater performance under JIT compilation. However, the static typing is optional and 
+  therefore Lua 5.3 programs are also valid Ravi programs.</p>
 
-<p>There are other attempts to add static typing to Lua (e.g. <a href="https://github.com/andremm/typedlua">Typed Lua</a> but these efforts are mostly about adding static type checks in the language while leaving the VM unmodified. So the static typing is to aid programming in the large - the code is eventually translated to standard Lua and executed in the unmodified Lua VM.</p>
+<p>There are other attempts to add static typing to Lua (e.g. <a href="https://github.com/andremm/typedlua">Typed Lua</a> 
+  but these efforts are mostly about adding static type checks in the language while leaving the 
+  VM unmodified. So the static typing is to aid programming in the large - the code is eventually 
+  translated to standard Lua and executed in the unmodified Lua VM.</p>
 
-<p>My motivation is somewhat different - I want to enhance the VM to support more efficient operations when types are known. Type information can be exploited by JIT compilation technology to improve performance.</p>
+<p>My motivation is somewhat different - I want to enhance the VM to support more efficient operations when 
+  types are known. Type information can be exploited by JIT compilation technology to improve performance.</p>
 
 <h3>
 <a id="links" class="anchor" href="#links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links</h3>
 
 <ul>
-<li><a href="http://the-ravi-programming-language.readthedocs.org/en/latest/">Documentation</a></li>
-<li><a href="http://the-ravi-programming-language.readthedocs.org/en/latest/ravi-benchmarks.html">Performance Benchmarks</a></li>
-<li><a href="http://the-ravi-programming-language.readthedocs.org/en/latest/ravi-jit-status.html">LLVM JIT Status</a></li>
-<li><a href="https://github.com/dibyendumajumdar/ravi/releases">Binaries</a></li>
 <li><a href="https://github.com/dibyendumajumdar/ravi">GitHub Project Site</a></li>
+<li><a href="https://the-ravi-programming-language.readthedocs.io/en/latest/ravi-overview.html">Documentation</a></li>
+<li><a href="https://github.com/dibyendumajumdar/Suravi">Suravi - Ravi with batteris included</a></li>
 </ul>
 
       <footer class="site-footer">
